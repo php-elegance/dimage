@@ -1,0 +1,23 @@
+{
+  "name": "elegance/dimage",
+  "description": "Manipulador de imagens PHP GD",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "André Ricardo",
+      "email": "contatoadmx@gamil.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "": "class/"
+    },
+    "files": [
+      "helper/function/color.php"
+    ]
+  },
+  "require": {
+    "elegance/core": "dev-main"
+  }
+}
