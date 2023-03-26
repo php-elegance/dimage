@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1065cd83fea97276cb886a3d95ef3b26",
+    "content-hash": "ea6996e2cfbff9d9f3e24cfe32113fab",
     "packages": [
         {
             "name": "elegance/core",
@@ -71,7 +71,10 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*",
+        "ext-exif": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
