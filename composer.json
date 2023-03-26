@@ -1,6 +1,6 @@
 {
   "name": "elegance/dimage",
-  "description": "Manipulador de imagens PHP GD",
+  "description": "Manipulador de imagens PHP-GD",
   "license": "MIT",
   "authors": [
     {
