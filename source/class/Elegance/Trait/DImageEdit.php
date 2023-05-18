@@ -18,7 +18,7 @@ trait DImageEdit
             'gif', => IMAGETYPE_GIF,
             'webp', => IMAGETYPE_WEBP,
             'jpg', 'jpe', 'jpeg' => IMAGETYPE_JPEG,
-            default => throw new Exception('image type not supported')
+            default => throw new Exception('Tipo de imagem não suportado')
         };
 
         if ($newImageType != $this->imageType) {

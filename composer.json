@@ -1,25 +1,25 @@
 {
-  "name": "elegance/dimage",
-  "description": "Manipulador de imagens PHP-GD",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "André Ricardo",
-      "email": "contatoadmx@gamil.com"
-    }
-  ],
-  "minimum-stability": "dev",
-  "autoload": {
-    "psr-4": {
-      "": "class/"
+    "name": "elegance/dimage",
+    "description": "Manipulador de imagens PHP-GD",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "source/class/"
+        },
+        "files": [
+            "source/helper/function/color.php"
+        ]
     },
-    "files": [
-      "helper/function/color.php"
-    ]
-  },
-  "require": {
-    "ext-gd": "*",
-    "ext-exif": "*",
-    "elegance/core": "dev-main"
-  }
+    "require": {
+        "ext-gd": "*",
+        "ext-exif": "*",
+        "elegance/core": "dev-main"
+    }
 }
