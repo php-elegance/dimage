@@ -3,6 +3,7 @@
 namespace Elegance;
 
 use Elegance\Trait\DImageCalc;
+use Elegance\Trait\DImageColor;
 use Elegance\Trait\DImageEdit;
 use Elegance\Trait\DImageGet;
 use Elegance\Trait\DImageNormalize;
@@ -19,6 +20,7 @@ class DImage
     use DImageNormalize;
     use DImageSet;
     use DImageUse;
+    use DImageColor;
 
     protected GdImage $gd;
     protected array $color = ['255', '255', '255'];
@@ -41,7 +43,7 @@ class DImage
 
         $object->name = implode('-', [
             'color',
-            colorHex(implode(',', $object->color)),
+            self::colorHex(implode(',', $object->color)),
             ...$object->size
         ]);
 

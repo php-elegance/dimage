@@ -8,7 +8,7 @@ trait DImageNormalize
     protected static function normalizeColor(string|array $color): array
     {
         if (!is_array($color)) {
-            $color = colorRGB($color);
+            $color = self::colorRGB($color);
             $color = explode(',', $color);
             $color = [
                 $color[0], $color[1], $color[2],

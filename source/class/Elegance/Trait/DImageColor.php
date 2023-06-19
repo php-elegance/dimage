@@ -1,9 +1,11 @@
 <?php
 
-if (!function_exists('colorHex')) {
+namespace Elegance\Trait;
 
+trait DImageColor
+{
     /** Converte uma string de cor RGB em uma string de cor Hexadecimal */
-    function colorHex(string $color): string
+    protected static function colorHex(string $color): string
     {
         if (strpos($color, ',') === false) {
             return str_replace('#', '', $color);
@@ -16,12 +18,9 @@ if (!function_exists('colorHex')) {
 
         return str_pad(dechex($r), 2, 0) . str_pad(dechex($g), 2, 0) . str_pad(dechex($b), 2, 0);
     }
-}
-
-if (!function_exists('colorRGB')) {
 
     /** Converte uma string de cor Hexadecimal em uma string de cor RGB */
-    function colorRGB(string $color): string
+    protected static function colorRGB(string $color): string
     {
         if (count(explode(',', $color)) == 3) {
             return $color;

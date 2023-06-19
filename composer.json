@@ -12,9 +12,7 @@
         "psr-4": {
             "": "source/class/"
         },
-        "files": [
-            "source/helper/function/color.php"
-        ]
+        "files": []
     },
     "require": {
         "ext-gd": "*",
