@@ -1,0 +1,23 @@
+{
+    "name": "elegance/dimage",
+    "description": "Manipulador de imagens PHP-GD",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "source/class/"
+        },
+        "files": []
+    },
+    "require": {
+        "ext-gd": "*",
+        "ext-exif": "*",
+        "elegance/core": "^0.1.0",
+        "elegance/mxcmd": "^0.1.0"
+    }
+}
