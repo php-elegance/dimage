@@ -17,7 +17,6 @@
     "require": {
         "ext-gd": "*",
         "ext-exif": "*",
-        "elegance/core": "^0.1.0",
-        "elegance/mxcmd": "^0.1.0"
+        "elegance/core": "^0.1.0"
     }
 }
