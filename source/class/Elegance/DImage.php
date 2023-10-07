@@ -400,7 +400,7 @@ class DImage
         return $this;
     }
 
-    /** Adiciona uma imagem dmx em uma posição da imagem atual */
+    /** Adiciona uma imagem DImage em uma posição da imagem atual */
     function stamp(DImage $imgSpamt, int $position = 0): static
     {
         #Capturando imagem
