@@ -2,6 +2,7 @@
 
 namespace Elegance\Trait;
 
+use Elegance\Mime;
 use GdImage;
 
 trait DImageTraitGet
@@ -89,5 +90,13 @@ trait DImageTraitGet
         ob_end_clean();
 
         return $bin;
+    }
+
+    /** Retorna a imagem codificada em base64*/
+    function getB64(): string
+    {
+        $type = Mime::getMimeEx($this->getExtension());
+        $b64 = base64_encode($this->getBin());
+        return "data:$type;base64,$b64";
     }
 }
