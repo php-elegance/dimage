@@ -216,6 +216,11 @@ O parametros **$position** pode ser um dos valores abaixo
 **getBin**: Retorna o binario da imagem
 
     $obj->getBin(): string
+---
+
+**getB64**: Retorna a imagem codificada em base64
+
+    $obj->getB64(): string
 
 ---
 
