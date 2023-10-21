@@ -17,6 +17,7 @@
     "require": {
         "ext-gd": "*",
         "ext-exif": "*",
-        "elegance/core": "^1.0"
-    }
+        "elegance/core": "dev-main"
+    },
+    "minimum-stability": "dev"
 }
