@@ -17,6 +17,6 @@
     "require": {
         "ext-gd": "*",
         "ext-exif": "*",
-        "elegance/core": "^1.1"
+        "elegance/core": "^1.2"
     }
 }
