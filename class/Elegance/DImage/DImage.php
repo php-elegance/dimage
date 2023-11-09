@@ -1,12 +1,14 @@
 <?php
 
-namespace Elegance;
+namespace Elegance\DImage;
 
-use Elegance\Trait\DImageTraitEdit;
-use Elegance\Trait\DImageTraitEngine;
-use Elegance\Trait\DImageTraitGet;
-use Elegance\Trait\DImageTraitSet;
-use Elegance\Trait\DImageTraitUse;
+use Elegance\Core\Dir;
+use Elegance\Core\File;
+use Elegance\DImage\Trait\DImageTraitEdit;
+use Elegance\DImage\Trait\DImageTraitEngine;
+use Elegance\DImage\Trait\DImageTraitGet;
+use Elegance\DImage\Trait\DImageTraitSet;
+use Elegance\DImage\Trait\DImageTraitUse;
 use Exception;
 use GdImage;
 

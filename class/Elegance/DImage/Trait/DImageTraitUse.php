@@ -1,10 +1,10 @@
 <?php
 
-namespace Elegance\Trait;
+namespace Elegance\DImage\Trait;
 
-use Elegance\DImage;
-use Elegance\Dir;
-use Elegance\File;
+use Elegance\Core\Dir;
+use Elegance\Core\File;
+use Elegance\DImage\DImage;
 use Error;
 
 trait DImageTraitUse

@@ -1,8 +1,8 @@
 <?php
 
-namespace Elegance\Trait;
+namespace Elegance\DImage\Trait;
 
-use Elegance\DImage;
+use Elegance\DImage\DImage;
 use Exception;
 
 trait DImageTraitEdit

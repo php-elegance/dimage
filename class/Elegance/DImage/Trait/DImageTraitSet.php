@@ -1,6 +1,6 @@
 <?php
 
-namespace Elegance\Trait;
+namespace Elegance\DImage\Trait;
 
 trait DImageTraitSet
 {

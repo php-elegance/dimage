@@ -1,8 +1,8 @@
 <?php
 
-namespace Elegance\Trait;
+namespace Elegance\DImage\Trait;
 
-use Elegance\Mime;
+use Elegance\Core\Mime;
 use GdImage;
 
 trait DImageTraitGet
