@@ -81,7 +81,7 @@ class DImage
             IMAGETYPE_GIF => imagecreatefromgif($url),
             IMAGETYPE_PNG => imagecreatefrompng($url),
             IMAGETYPE_WEBP => imagecreatefromwebp($url),
-            default => throw new Exception('Tipo de imagem não suportado')
+            default => throw new Exception('Image type not suported')
         };
 
         $object->size = [imagesx($object->gd), imagesy($object->gd)];
@@ -94,7 +94,7 @@ class DImage
     {
 
         if (!File::check($path))
-            throw new Exception('Arquivo não encontrado');
+            throw new Exception('File not found');
 
         $object = new DImage();
 
@@ -110,7 +110,7 @@ class DImage
             IMAGETYPE_GIF => imagecreatefromgif($path),
             IMAGETYPE_PNG => imagecreatefrompng($path),
             IMAGETYPE_WEBP => imagecreatefromwebp($path),
-            default => throw new Exception('Tipo de imagem não suportado')
+            default => throw new Exception('Image type not suported')
         };
 
         $object->size = [imagesx($object->gd), imagesy($object->gd)];

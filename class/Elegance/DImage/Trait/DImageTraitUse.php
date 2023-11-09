@@ -15,7 +15,7 @@ trait DImageTraitUse
         $path = $path ?? $this->path;
 
         if (is_null($path))
-            throw new Error('É preciso definir um caminho para salvar o arquivo');
+            throw new Error('Set a path to save the file');
 
         $this->path = $path;
 
